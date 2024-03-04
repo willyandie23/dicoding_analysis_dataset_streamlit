@@ -49,7 +49,7 @@ def plot_rentals_by_weather(bikes_df):
     return fig
 
 
-data_path = "main_data.csv"
+data_path = "dashboard/main_data.csv"
 bikes_df = load_data(data_path)
 monthly_rentals = clean_data(bikes_df)[1]
 
